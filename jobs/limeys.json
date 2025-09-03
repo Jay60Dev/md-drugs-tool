@@ -1,0 +1,31 @@
+{
+    "label": "Limeys",
+    "type": "restaurant",
+    "defaultDuty": true,
+    "offDutyPay": false,
+    "grades": [
+        { "name": "recruit", "payment": 50 },
+        { "name": "barista", "payment": 75 },
+        { "name": "shift lead", "payment": 100 },
+        { "name": "management", "payment": 50, "isboss": true, "bankAuth": true }
+    ],
+    "items": {
+        "banana": {},
+        "banana_smoothie": {},
+        "blueberry": {},
+        "blueberry_smoothie": {},
+        "ice": {},
+        "lemon": {},
+        "lemonade": {},
+        "lime": {},
+        "limeade": {},
+        "mango": {},
+        "mango_smoothie": {},
+        "pomegranate": {},
+        "pomegranate_smoothie": {},
+        "strawberry": {},
+        "strawberry_lemonade": {},
+        "strawberry_smoothie": {},
+        "sugar": {}
+    }
+}

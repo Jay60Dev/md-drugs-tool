@@ -1,0 +1,40 @@
+{
+    "label": "Deer Diner",
+    "type": "restaurant",
+    "defaultDuty": true,
+    "offDutyPay": false,
+    "grades": [
+        { "name": "recruit", "payment": 50 },
+        { "name": "barista", "payment": 75 },
+        { "name": "shift lead", "payment": 100 },
+        { "name": "management", "payment": 50, "isboss": true, "bankAuth": true }
+    ],
+    "items": {
+        "bacon_and_eggs": {},
+        "basket_fries": {},
+        "burger_bun": {},
+        "burger_cheese": {},
+        "burger_meat": {},
+        "burger_patty": {},
+        "chicken_wings_raw": {},
+        "cooked_chicken": {},
+        "cooked_steak": {},
+        "deer_cheeseburger": {},
+        "eggs": {},
+        "hashbrown": {},
+        "hot_wings": {},
+        "lettuce": {},
+        "onion": {},
+        "pickle": {},
+        "pickle_slices": {},
+        "potato": {},
+        "raw_bacon": {},
+        "raw_chicken": {},
+        "raw_steak": {},
+        "sirloin_steak": {},
+        "sliced_onion": {},
+        "sliced_tomato": {},
+        "steak_burger": {},
+        "uncooked_fries": {}
+    }
+}

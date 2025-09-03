@@ -1,0 +1,37 @@
+{
+    "label": "Best Budz",
+    "type": "weedshop",
+    "defaultDuty": true,
+    "offDutyPay": null,
+    "grades": [
+        { "name": "ten sack", "payment": 50 },
+        { "name": "dub", "payment": 75 },
+        { "name": "eigth", "payment": 100 },
+        { "name": "quarter", "payment": 125 },
+        { "name": "ounce", "payment": 150, "isboss": true, "bankAuth": true }
+    ],
+    "items": {
+        "bluntwrap": {},
+        "blunt_ak47": {},
+        "blunt_og_kush": {},
+        "blunt_purple_haze": {},
+        "blunt_skunk": {},
+        "blunt_white_widow": {},
+        "candy_gummies": {},
+        "empty_weed_bag": {},
+        "joint_ak47": {},
+        "joint_og_kush": {},
+        "joint_purplehaze": {},
+        "joint_skunk": {},
+        "joint_whitewidow": {},
+        "rolling_paper": {},
+        "weed_gummies": {},
+        "weed_job_ak47": {},
+        "weed_job_og_kush": {},
+        "weed_job_purple_haze": {},
+        "weed_job_skunk": {},
+        "weed_job_white_widow": {},
+        "weed_nutrition": {},
+        "weed_oil": {}
+    }
+}

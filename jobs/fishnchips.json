@@ -1,0 +1,32 @@
+{
+    "label": "Fish N Chips",
+    "type": "restaurant",
+    "defaultDuty": true,
+    "offDutyPay": false,
+    "grades": [
+        { "name": "recruit", "payment": 50 },
+        { "name": "barista", "payment": 75 },
+        { "name": "shift lead", "payment": 100 },
+        { "name": "management", "payment": 50, "isboss": true, "bankAuth": true }
+    ],
+    "items": {
+        "cs_battered_cod": {},
+        "cs_battered_sausage": {},
+        "cs_battermix": {},
+        "cs_chips": {},
+        "cs_fish_meal": {},
+        "cs_paper": {},
+        "cs_pie": {},
+        "cs_pie_meal": {},
+        "cs_sausage_meal": {},
+        "cs_savaloy": {},
+        "cs_savaloy_meal": {},
+        "cs_usedpaper": {},
+        "potato": {},
+        "raw_chips": {},
+        "raw_cod": {},
+        "raw_pie": {},
+        "raw_sausage": {},
+        "raw_saveloy": {}
+    }
+}

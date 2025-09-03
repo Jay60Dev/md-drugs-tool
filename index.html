@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>md-jobs</title>
+    <script type="module" src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app"></div>
+    <header>
+        <h1>md-jobs Generator</h1>
+    </header>
+    <div>
+        <div id="setup-select">
+            <label for="framework">Select Framework:</label>
+            <select id="framework">
+                <option value="Qb">Qb</option>
+                <option value="Qbox">Qbox</option>
+                <option value="Esx">Esx</option>
+            </select>
+
+            <label for="inventory">Select Inventory:</label>
+            <select id="inventory">
+                <option value="Qb">Qb</option>
+                <option value="Ox">Ox</option>
+            </select>
+        </div>
+
+        <div id="jobs-container">
+            <label>Select Jobs:</label>
+            <div id="jobs-checkboxes"></div>
+        </div>
+        <!-- <label for="jobs">Select Jobs:</label>
+        <select id="jobs"></select> -->
+    </div>
+
+    <div>
+        <button id="generate">Generate</button>
+    </div>
+
+    <div id="output">
+        <div>
+            <h2 id="label-jobs" class="hidden">Job Data</h2>
+            <pre id="output-jobs" class="hidden"></pre>
+        </div>
+        <div>
+            <h2 id="label-items" class="hidden">Item Data</h2>
+            <pre id="output-items" class="hidden"></pre>
+        </div>
+    </div>
+</body>
+</html>

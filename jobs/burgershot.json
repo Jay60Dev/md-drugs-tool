@@ -1,0 +1,41 @@
+{
+    "label": "Burger Shot",
+    "type": "restaurant",
+    "defaultDuty": true,
+    "offDutyPay": false,
+    "grades": [
+        { "name": "recruit", "payment": 50 },
+        { "name": "barista", "payment": 75 },
+        { "name": "shift lead", "payment": 100 },
+        { "name": "management", "payment": 50, "isboss": true, "bankAuth": true }
+    ],
+    "items": {
+        "bs_bleeder": {},
+        "bs_fries": {},
+        "bs_heartstopper": {},
+        "bs_heartstopper_meal": {},
+        "bs_moneyshot": {},
+        "bs_moneyshot_meal": {},
+        "bs_nuggets": {},
+        "bs_nugget_meal": {},
+        "bs_torpedo": {},
+        "bs_torpedo_meal": {},
+        "burger_bun": {},
+        "burger_cheese": {},
+        "burger_meat": {},
+        "burger_patty": {},
+        "coffee": {},
+        "cooked_chicken_burger": {},
+        "cooking_oil": {},
+        "ecola": {},
+        "frozen_fries": {},
+        "frozen_nuggets": {},
+        "lettuce2": {},
+        "onion": {},
+        "raw_chicken": {},
+        "sliced_onion": {},
+        "sliced_tomato": {},
+        "sprunk": {},
+        "tomato": {}
+    }
+}

@@ -1,0 +1,125 @@
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #222;
+}
+
+#app {
+  margin-bottom: 1.5rem;
+}
+
+div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #444;
+}
+
+select,
+button {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+select {
+  background: #fff;
+  min-width: 200px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.2);
+}
+
+button {
+  background: #0077ff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+#output {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+pre {
+  white-space: pre; /* preserve whitespace exactly */
+  tab-size: 4; /* control how many spaces a tab renders as */
+  -moz-tab-size: 4; /* Firefox-specific */
+  font-family: "Fira Code", monospace;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+#instructions {
+    text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#jobs-checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.job-checkbox input {
+    accent-color: #4f46e5; /* nice modern blue */
+}
+.job-checkbox, .job-checkbox label {
+    margin: 0;
+}
+
+#setup-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center start;
+    gap: 1rem;
+}

@@ -1,0 +1,37 @@
+{
+    "label": "Bean Machine",
+    "type": "restaurant",
+    "defaultDuty": true,
+    "offDutyPay": null,
+    "grades": [
+        { "name": "recruit", "payment": 50 },
+        { "name": "barista", "payment": 75 },
+        { "name": "shift lead", "payment": 100 },
+        { "name": "management", "payment": 50, "isboss": true, "bankAuth": true }
+    ],
+    "items": {
+        "almond_croissant": {},
+        "americano": {},
+        "butter_croissant": {},
+        "cappuccino": {},
+        "caramel_macchiato": {},
+        "caramel_syrup": {},
+        "chocolate_syrup": {},
+        "cinnamon": {},
+        "cocoa_powder": {},
+        "coffee": {},
+        "cold_brew": {},
+        "espresso": {},
+        "hazelnut_latte": {},
+        "hazelnut_syrup": {},
+        "ice": {},
+        "iced_cafe": {},
+        "mocha_latte": {},
+        "oat_milk": {},
+        "sugar": {},
+        "tiramasu_coffee": {},
+        "vanilla_frappe": {},
+        "vanilla_syrup": {},
+        "whipped_cream": {}
+    }
+}
