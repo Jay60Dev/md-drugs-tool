@@ -1,19 +1,4 @@
-const jobsList = [
-    "beanmachine",
-    "bestbudz",
-    "burgershot",
-    "deerdiner",
-    "fishnchips",
-    "hookies",
-    "hornys",
-    "limeys",
-    "morpheouspub",
-    // "pizzeria",
-    // "popsdiner",
-    // "tacoshop",
-    // "tequilala",
-    // "uwucafe",
-];
+const jobsList = ["beanmachine","bestbudz","burgershot","deerdiner","fishnchips","hookies","hornys","limeys","morpheouspub","pizzeria","popsdiner","tacoshop","tequilala","uwucafe"];
 
 class Item {
     constructor(name, data) {
@@ -144,7 +129,7 @@ generateButton.onclick = async () => {
 
     ["jobs", "items"].forEach(id => {
         const el = document.getElementById(`output-${id}`);
-        el.textContent = output.map(o => o[id]).join('\n');
+        el.textContent = output.map(o => o[id]).join('');
         el.classList.toggle('hidden', el.textContent === '');
     });
 };
